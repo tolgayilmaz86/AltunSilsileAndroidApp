@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <item
+        android:id="@+id/menuAltunSilsile"
+        android:icon="@drawable/ic_menu_sun"
+        android:showAsAction="never"
+        android:title="@string/application_settings"/>
+      <item
+        android:id="@+id/menuHakkinda"
+        android:icon="@drawable/ic_menu_light"
+        android:showAsAction="never"
+        android:title="@string/about_settings"/>
+
+    <item
+        android:id="@+id/menuExit"
+        android:icon="@drawable/ic_menu_exit"
+        android:showAsAction="never"
+        android:title="@string/exit"/>
+</menu>

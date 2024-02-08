@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:accordion="http://schemas.android.com/apk/res/tr.com.reformtek"
+    android:id="@+id/mainlayout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+    android:background="@color/background_color"
+    android:layout_marginBottom="40sp">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6sp"
+        android:layout_marginLeft="2sp"
+        android:layout_marginRight="2sp"
+        android:background="@drawable/header_bg"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <tr.com.reformtek.widget.ToggleImageLabeledButton
+            android:id="@+id/foldButton"
+            android:layout_width="24dip"
+            android:layout_height="24dip"
+            android:layout_marginLeft="4sp"
+            android:layout_marginRight="4sp"
+            android:layout_marginTop="1sp"
+            accordion:icon_resource="@drawable/down"
+            accordion:icon_resource_off="@drawable/up" />
+
+        <!-- paddingRight added to center text correctly -->
+
+        <TextView
+            android:id="@+id/foldText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:layout_marginLeft="30sp"
+            android:textColor="@color/section_header_text_color"
+            android:textSize="16sp"
+            android:paddingTop="2sp"
+            android:paddingBottom="2sp"
+            />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView 
+        xmlns:android="http://schemas.android.com/apk/res/android"
+    	xmlns:accordion="http://schemas.android.com/apk/res/tr.com.reformtek"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="45sp" >
+
+        <tr.com.reformtek.widget.AccordionView
+            android:id="@+id/accordion_view"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            accordion:header_layout_fold_button_id="@id/foldButton"
+            accordion:header_layout_id="@layout/accordion_header"
+            accordion:header_layout_label_id="@id/foldText"
+            accordion:section_bottom="@layout/accordion_footer"
+            accordion:section_container="@layout/accordion_section"
+            accordion:section_container_parent="@id/section_content"
+            accordion:section_headers="@array/accordion_sections"
+            accordion:section_visibility="@array/accordion_visibility"
+            android:orientation="vertical" >
+
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textIsSelectable="true"
+                android:textColor="@color/section_content_text_color"
+                android:text="@string/silsileContent1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textIsSelectable="true"
+                android:textColor="@color/section_content_text_color"
+                android:text="@string/silsileContent2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textIsSelectable="true"
+                android:textColor="@color/section_content_text_color"
+                android:text="@string/silsileContent3" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textIsSelectable="true"
+                android:textColor="@color/section_content_text_color"
+                android:text="@string/silsileContent4" />
+            
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textIsSelectable="true"
+                android:textColor="@color/section_content_text_color"
+                android:text="@string/silsileContent5" />
+                        
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textIsSelectable="true"
+                android:textColor="@color/section_content_text_color"
+                android:text="@string/silsileContent6" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textIsSelectable="true"
+                android:textColor="@color/section_content_text_color"
+                android:text="@string/silsileContent7" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textIsSelectable="true"
+                android:textColor="@color/section_content_text_color"
+                android:text="@string/silsileContent8" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textIsSelectable="true"
+                android:textColor="@color/section_content_text_color"
+                android:text="@string/silsileContent9" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textIsSelectable="true"
+                android:textColor="@color/section_content_text_color"
+                android:text="@string/silsileContent10" />
+            
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textIsSelectable="true"
+                android:textColor="@color/section_content_text_color"
+                android:text="@string/silsileContent11" />
+                        
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textIsSelectable="true"
+                android:textColor="@color/section_content_text_color"
+                android:text="@string/silsileContent12" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textIsSelectable="true"
+                android:textColor="@color/section_content_text_color"
+                android:text="@string/silsileContent13" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textIsSelectable="true"
+                android:textColor="@color/section_content_text_color"
+                android:text="@string/silsileContent14" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textIsSelectable="true"
+                android:textColor="@color/section_content_text_color"
+                android:text="@string/silsileContent15" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textIsSelectable="true"
+                android:textColor="@color/section_content_text_color"
+                android:text="@string/silsileContent16" />
+            
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textIsSelectable="true"
+                android:textColor="@color/section_content_text_color"
+                android:text="@string/silsileContent17" />
+                        
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textIsSelectable="true"
+                android:textColor="@color/section_content_text_color"
+                android:text="@string/silsileContent18" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textIsSelectable="true"
+                android:textColor="@color/section_content_text_color"
+                android:text="@string/silsileContent19" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textIsSelectable="true"
+                android:textColor="@color/section_content_text_color"
+                android:text="@string/silsileContent20" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textIsSelectable="true"
+                android:textColor="@color/section_content_text_color"
+                android:text="@string/silsileContent21" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textIsSelectable="true"
+                android:textColor="@color/section_content_text_color"
+                android:text="@string/silsileContent22" />
+            
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textIsSelectable="true"
+                android:textColor="@color/section_content_text_color"
+                android:text="@string/silsileContent23" />
+                        
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textIsSelectable="true"
+                android:textColor="@color/section_content_text_color"
+                android:text="@string/silsileContent24" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textIsSelectable="true"
+                android:textColor="@color/section_content_text_color"
+                android:text="@string/silsileContent25" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textIsSelectable="true"
+                android:textColor="@color/section_content_text_color"
+                android:text="@string/silsileContent26" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textIsSelectable="true"
+                android:textColor="@color/section_content_text_color"
+                android:text="@string/silsileContent27" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textIsSelectable="true"
+                android:textColor="@color/section_content_text_color"
+                android:text="@string/silsileContent28" />
+            
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textIsSelectable="true"
+                android:textColor="@color/section_content_text_color"
+                android:text="@string/silsileContent29" />
+                        
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textIsSelectable="true"
+                android:textColor="@color/section_content_text_color"
+                android:text="@string/silsileContent30" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textIsSelectable="true"
+                android:textColor="@color/section_content_text_color"
+                android:text="@string/silsileContent31" />
+            
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textIsSelectable="true"
+                android:textColor="@color/section_content_text_color"
+                android:text="@string/silsileContent32" />
+                        
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textIsSelectable="true"
+                android:textColor="@color/section_content_text_color"
+                android:text="@string/silsileContent33" />
+            
+        </tr.com.reformtek.widget.AccordionView>
+    </ScrollView>
+
